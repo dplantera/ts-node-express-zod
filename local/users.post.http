@@ -1,0 +1,16 @@
+### valid request
+POST http://localhost:8000/api/users
+Content-Type: application/json
+
+{
+  "name": "anton",
+  "email": "anton@tirol.com"
+}
+
+### invvalid request
+POST http://localhost:8000/api/users
+Content-Type: application/json
+
+{
+  "name": "anton"
+}
